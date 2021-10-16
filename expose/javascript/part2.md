@@ -19,6 +19,6 @@ Therefore, we push these three values to discounted which is an array of size 3 
 12. A: alert(Student.name); <br>
     B: alert(Student["Grad Year"]); <br> 
     C: Student.greeting(); <br>
-    D: console.log(Student["Favorite Teacher"].name); <br>
+    D: alert(Student["Favorite Teacher"].name); <br>
     E: alert(Student.ourseload[0]); <br>
           
