@@ -16,9 +16,9 @@ Therefore, we push these three values to discounted which is an array of size 3 
 9. The code causes an error. Smae reason with question 5. Since it uses "let" to declare the variable, it cannot be called out of the for loop block, it’s only visible inside that block. In other words, i is not defined when line 12 runs.
 10. The code will print 3. The variable lenght is declared as const = prices.length. It will be 3 forever, and can't change anymore. Therefore, line 12 will print the value of this variable which is 3.
 11. This function will return as an array of size 3: [50, 100, 150]. The variable declared as const, so it would be some values that can't be changed. When we go through the for loop, the for loop will run 3 times, and for each time a new value willl be pushed to discounted, so the discounted not be changed for every time but be updated for three times, and it works for const, so we calculate the value for discountedPrice each time which is 50, 100, and 150. Then push these three values to discounted. When return discounted, these three values will be returned.
-12. A: alert(Student.name); <dr>
-    B: alert(Student["Grad Year"]); <dr> 
-    C: Student.greeting(); <dr>
-    D: console.log(Student["Favorite Teacher"].name); <dr>
-    E: alert(Student.ourseload[0]); <dr>
+12. A: alert(Student.name); <br>
+    B: alert(Student["Grad Year"]); <br> 
+    C: Student.greeting(); <br>
+    D: console.log(Student["Favorite Teacher"].name); <br>
+    E: alert(Student.ourseload[0]); <br>
           
