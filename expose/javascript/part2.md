@@ -41,7 +41,8 @@ Q17. The result is an array [2, 4, 6]. Call modifyArray([1, 2, 3], doSomething),
             when i = 1; array[1] = 2, callback(array[1]) = dosomething(array[1]) = 2 * 2 = 4; push 4 to newArr. <br>
             when i = 2; array[2] = 3, callback(array[3]) = dosomething(array[2]) = 3 * 2 = 6; push 6 to newArr. <br>
             Therefore, the final answer is [2, 4, 6].<br>
-Q19. 1 <br>
+Q19. <br>
+     1 <br>
      4 <br>
      3 <br>
      2 <br>
