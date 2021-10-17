@@ -16,9 +16,25 @@ Therefore, we push these three values to discounted which is an array of size 3 
 9. The code causes an error. Smae reason with question 5. Since it uses "let" to declare the variable, it cannot be called out of the for loop block, it’s only visible inside that block. In other words, i is not defined when line 12 runs.
 10. The code will print 3. The variable lenght is declared as const = prices.length. It will be 3 forever, and can't change anymore. Therefore, line 12 will print the value of this variable which is 3.
 11. This function will return as an array of size 3: [50, 100, 150]. The variable declared as const, so it would be some values that can't be changed. When we go through the for loop, the for loop will run 3 times, and for each time a new value willl be pushed to discounted, so the discounted not be changed for every time but be updated for three times, and it works for const, so we calculate the value for discountedPrice each time which is 50, 100, and 150. Then push these three values to discounted. When return discounted, these three values will be returned.
-12. A: alert(Student.name); <br>
-    B: alert(Student["Grad Year"]); <br> 
+12. A: console.log(Student.name); <br>
+    B: console.log(Student["Grad Year"]); <br> 
     C: Student.greeting(); <br>
-    D: alert(Student["Favorite Teacher"].name); <br>
-    E: alert(Student.ourseload[0]); <br>
+    D: console.log(Student["Favorite Teacher"].name); <br>
+    E: console.log(Student.ourseload[0]); <br>
+13. A. 32. Because integers map to their exact string representation.
+    B. 1. Because strings map to their exact integer representation.
+    C. 3. For maths and other comparisons, null are converted to number, so 3 + null = 3 + 0 = 3.
+    D. 3null. In this case, '3' maps to string "3", so combine with null is 3null.
+    E. 4. For boolean values, true becomes 1 and false becomes 0, so true + 3 = 1 + 3 = 4.
+    F. 0. For boolean values, true becomes 1 and false becomes 0. For maths and other comparisons, null are converted to number, so 0 + 0 = 0.
+    G. 3undefined. '3' is type of string, same as undefined, so combine together becomes 3undefined.
+    H. NaN. The number is “read” from the string, so the error gives NaN.
+14. A. true. String '2' becomes a number 2, so 2 > 1 is true.
+    B. false. Dictionary comparison, first char "2" is greater than the first char "1", so '2' < '12' is false.
+    C. true. String '2' becomes a number 2, so 2 == 2 is true.
+    D. false. 2 and '2' are different data types, so using strict equality operator to check is return false.
+    E. false. For boolean values, true becomes 1 and false becomes 0, so true == 1 is false.
+    F. true. In Boolean conversion, "Values that are intuitively “empty”, like 0, an empty string, null, undefined, and NaN, become false. Other values become true", so In this case value is 2, it's true. 
+15. "==" can compare values of different types, and converts the values to numbers, but it cannot differentiate 0 or empty string from false. "===", the strict equality operator checks the equality without type conversion. It will return false if check with two different types values, but when compare 0 with false it will return false.
+16. 
           
