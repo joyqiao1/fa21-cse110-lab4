@@ -36,7 +36,7 @@ Q14. A. true. String '2' becomes a number 2, so 2 > 1 is true.<br>
     E. false. For boolean values, true becomes 1 and false becomes 0, so true == 1 is false.<br>
     F. true. In Boolean conversion, "Values that are intuitively “empty”, like 0, an empty string, null, undefined, and NaN, become false. Other values become           true", so In this case value is 2, it's true. <br>
 Q15. "==" can compare values of different types, and converts the values to numbers, but it cannot differentiate 0 or empty string from false. "===", the strict         equality operator checks the equality without type conversion. It will return false if check with two different types values, but when compare 0 with false it       will return false.<br>
-Q17. The result is an array [2, 4, 6]. Call modifyArray([1, 2, 3], doSomething), so go through the for loop inside of the function:
+Q17. The result is an array [2, 4, 6]. Call modifyArray([1, 2, 3], doSomething), so go through the for loop inside of the function:<br>
             when i = 0; array[0] = 1, callback(array[0]) = dosomething(array[0]) = 1 * 2 = 2; push 2 to newArr. <br>
             when i = 1; array[1] = 2, callback(array[1]) = dosomething(array[1]) = 2 * 2 = 4; push 4 to newArr. <br>
             when i = 2; array[2] = 3, callback(array[3]) = dosomething(array[2]) = 3 * 2 = 6; push 6 to newArr. <br>
