@@ -36,5 +36,3 @@ Therefore, we push these three values to discounted which is an array of size 3 
     E. false. For boolean values, true becomes 1 and false becomes 0, so true == 1 is false.
     F. true. In Boolean conversion, "Values that are intuitively “empty”, like 0, an empty string, null, undefined, and NaN, become false. Other values become true", so In this case value is 2, it's true. 
 15. "==" can compare values of different types, and converts the values to numbers, but it cannot differentiate 0 or empty string from false. "===", the strict equality operator checks the equality without type conversion. It will return false if check with two different types values, but when compare 0 with false it will return false.
-16. 
-          
